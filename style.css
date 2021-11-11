@@ -1,0 +1,347 @@
+/*seletor{propriedade: valor;} */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;700&display=swap');
+
+*{margin:0; padding: 0 ;
+
+
+}
+
+body{
+	background-color: rgb(255, 255, 255);
+}
+
+header, img{
+	width:  100%;
+	/*height: 300px;*/
+	height: auto;
+
+}
+
+
+
+nav{
+	background-color: #8DCFD8;
+	text-align: center;
+	padding: 15px;
+	margin-top: -4px;
+
+
+
+}
+
+main{
+	width: 100%;
+	background-color: #FFF7D2;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+
+a{
+	
+	font-family: 'Open Sans';
+	text-decoration: none;
+	
+}
+
+.a-menu{
+	color: #FFF;
+	font-family: 'Open Sans';
+	font-size: 17px;
+	text-decoration: none;
+	margin-right: 40px;
+	font-weight: bold ;
+	text-shadow: -1px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
+
+}
+
+a:hover{
+	color: #D8B64B;
+
+}
+
+h1{
+	font-family: 'Open Sans'; 
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+#paracomecar h2{
+	 margin-bottom: 30px;
+	 margin-left: 60px;
+	 color: #FFF;
+}
+
+h2{
+	font-family: 'Open Sans'; 
+	text-align: justify;
+
+}
+
+ol{
+	margin-left: 100px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	line-height: 40px;
+
+}
+
+#destinosartigos{
+	background-color: #FFF4B3;
+	padding: 50px;
+}
+
+#destinosartigos h2{
+	 margin-bottom: 30px;
+	 margin-left: 60px;
+}
+
+#container{
+	display:flex;
+
+}
+.card{
+	background-color: #FFF;
+	margin: 10px;
+	width: 25%;	
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #777
+	
+}
+
+.card:hover{
+	box-shadow: 10px 10px 10px #777;
+
+}
+
+h3{
+	font-family: 'Open Sans'; 
+	text-align: center;
+
+}
+
+.card-content{
+	padding: 10px;
+}
+
+.card-content p{
+	font-family: 'Roboto', sans-serif ;
+	font-size: 16px;
+	color: #777;
+	text-align: center;
+	padding: 10px;
+}
+
+main p{
+	font-family: 'Roboto', sans-serif ;
+	font-size: 20px;
+	color: #777;
+	text-align: justify;
+	text-indent: 60px;
+	line-height: 30px;
+
+}
+
+#paracomecar{
+	background-color: #D0A156;
+	padding: 50px;
+
+}
+
+#videofinaldapagina{
+	background-color: #8DCFD8;
+	padding: 50px;
+}
+
+#videofinaldapagina h2{
+	margin-bottom: 30px;
+	margin-left: 70px;
+	text-align: center;
+
+}
+
+.video-text{
+	margin-left: 5px;
+	font-family: 'Roboto', sans-serif ;
+	font-size: 20px;
+	color: #FFF;
+	text-align: justify;
+	text-indent: 60px;
+	line-height: 30px;
+}
+#container-final{
+	display: flex;
+}
+
+.coluna-video{
+	padding: 20px;
+	width: 50%;
+
+}
+
+iframe{
+	width: 520px;
+	height: 293.43px;
+}
+
+.container-img-icons{
+	margin-top: 20px;
+	display: flex ;
+	align-items: center;
+	
+}
+
+.container-img-icons p{
+	font-family: 'Roboto', sans-serif ;
+	font-size: 18px;
+	text-align: center;
+	color: #000 ;
+	margin-left: 2px;
+	font-weight: bold;
+	
+
+}
+.img-icon{
+	width: 24px;
+	height: 24px;
+	align-content: center;
+	padding: 5px;
+	
+}
+
+#mailicon {
+	width: 24px;
+	height: 20px;
+	margin-left: 20px;
+
+}
+
+footer{
+	background-color: #FFF7D2;
+	padding: 15px;
+}
+
+footer p{
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 17px;
+	font-weight: bold ;
+	text-shadow: -1px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
+	color: #FFF;
+}
+
+footer a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+footer strong{
+	color: #D8B64B ;
+}
+
+footer strong:hover{
+	font-size: 20px;
+}
+
+
+/*página de cursos*/
+
+
+#pag-cursos h2{
+	text-align: center;
+	font-family: 'Open Sans'; 
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 500px;
+	align-content: center;
+	
+}
+
+#paracentralizar{
+	margin-left: 350px;
+
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+input, select{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border:  1px solid #C4C4C4;
+	font-family: 'Roboto', sans-serif ;
+}
+
+label, legend, input, select, textarea, h4{
+	font-family: 'Roboto', sans-serif ;
+	
+}
+
+#consultoria{
+	padding: 20px;
+}
+
+fieldset{
+	border: 1px solid #CCC ;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#data-hora-aula{
+	display: flex;
+	margin-top: 10px;
+
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	margin-left: 50px ;
+}
+
+textarea{
+	height: 80px;
+}
+
+#botoes-form{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	
+  border-radius: 5px;
+  font-size: 22px;
+  margin: 20px;
+  margin-bottom: 30px;
+  color: #FFF;
+  position: relative;
+  display: inline-block;
+  transition: all .5s ease-in-out;
+
+}
+
+input[type="reset"]{
+	background-color: red;
+}
+input[type="submit"]{
+	background-color:#D8B64B;
+}
+
+
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+	padding: 20px 10px;
+	transform: scale(1.2);
+	font-size: 20px;
+	
+}
+
